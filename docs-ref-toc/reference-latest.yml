@@ -389,6 +389,10 @@
       - Azure.AI.OpenAI.Assistants
       - Microsoft.Extensions.Azure
       landingPageType: Service
+    - name: AI Foundry
+      href: ~/api/overview/azure/latest/ai.projects-readme.md
+      children:
+      - Azure.AI.Projects
     - name: Text Analytics
       href: ~/api/overview/azure/latest/ai.textanalytics-readme.md
       children:
@@ -415,6 +419,10 @@
       children:
       - Azure.AI.Vision.ImageAnalysis
       - Microsoft.Extensions.Azure
+    - name: Voice Live
+      href: ~/api/overview/azure/latest/ai.voicelive-readme.md
+      children:
+      - Azure.AI.VoiceLive
     - name: Health Insights Cancer Profiling
       children:
       - Azure.Health.Insights.CancerProfiling
@@ -908,6 +916,18 @@
         - Azure.ResourceManager.DataShare
         - Azure.ResourceManager.DataShare.Mocking
         - Azure.ResourceManager.DataShare.Models
+  - name: Database Migration
+    href: ~/api/overview/azure/latest/database-migration.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Data Migration
+        href: ~/api/overview/azure/latest/resourcemanager.datamigration-readme.md
+        children:
+        - Azure.ResourceManager.DataMigration
+        - Azure.ResourceManager.DataMigration.Mocking
+        - Azure.ResourceManager.DataMigration.Models
   - name: Defender EASM
     landingPageType: Service
     items:
@@ -2435,6 +2455,18 @@
         - Azure.ResourceManager.SignalR
         - Azure.ResourceManager.SignalR.Mocking
         - Azure.ResourceManager.SignalR.Models
+  - name: Sitemanager
+    href: ~/api/overview/azure/latest/sitemanager.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Sitemanager
+        href: ~/api/overview/azure/latest/resourcemanager.sitemanager-readme.md
+        children:
+        - Azure.ResourceManager.SiteManager
+        - Azure.ResourceManager.SiteManager.Mocking
+        - Azure.ResourceManager.SiteManager.Models
   - name: Sphere
     href: ~/api/overview/azure/latest/sphere.md
     landingPageType: Service
@@ -2671,20 +2703,8 @@
     items:
     - name: unknown
       children:
-      - Azure.AI.VoiceLive
-      - Microsoft.Extensions.Azure
-      landingPageType: Service
-    - name: unknown
-      children:
       - Azure.Analytics.OnlineExperimentation
       - Microsoft.Extensions.Azure
-      landingPageType: Service
-    - name: unknown
-      children:
-      - Azure.AI.Models
-      - Azure.AI.OpenAI
-      - Azure.Projects
-      - Azure.Projects.AI
       landingPageType: Service
   - name: Voice Services
     href: ~/api/overview/azure/latest/voice-services.md
@@ -2777,10 +2797,6 @@
         - Microsoft.Rest.Serialization
         - Microsoft.Rest.TransientFaultHandling
         landingPageType: Service
-    - name: Azure.Core.Expressions.DataFactory
-      href: ~/api/overview/azure/latest/core.expressions.datafactory-readme.md
-      children:
-      - Azure.Core.Expressions.DataFactory
     - name: Core
       landingPageType: Service
       items:
@@ -2803,6 +2819,10 @@
           - Azure.Core.Pipeline
           - Azure.Core.Serialization
           - Azure.Messaging
+        - name: Core
+          href: ~/api/overview/azure/latest/core.expressions.datafactory-readme.md
+          children:
+          - Azure.Core.Expressions.DataFactory
         - name: Spatial
           href: ~/api/overview/azure/latest/microsoft.azure.core.spatial-readme.md
           children:
