@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.Datadog",
-  "Version": "1.0.0-beta.6",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20251021.1",
+  "DevVersion": "1.0.0-alpha.20251021.1",
   "DirectoryPath": "sdk/datadog/Azure.ResourceManager.Datadog",
   "ServiceDirectory": "datadog",
   "ReadMePath": "sdk/datadog/Azure.ResourceManager.Datadog/README.md",
@@ -10,24 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.ResourceManager.Datadog",
-  "ReleaseStatus": "2025-08-04",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "safeName": "AzureResourceManagerDatadog",
+    "name": "Azure.ResourceManager.Datadog",
     "triggeringPaths": [
       "/sdk/datadog/ci.mgmt.yml"
-    ],
-    "safeName": "AzureResourceManagerDatadog",
-    "name": "Azure.ResourceManager.Datadog"
+    ]
   },
   "CIParameters": {
-    "BuildSnippets": true,
+    "AOTTestInputs": [],
     "CheckAOTCompat": true,
-    "AOTTestInputs": {
-      "ArtifactName": "Azure.ResourceManager.Datadog",
-      "ExpectedWarningsFilepath": "None"
-    },
-    "CIMatrixConfigs": []
+    "CIMatrixConfigs": [],
+    "BuildSnippets": true
   },
   "Namespaces": [
     "Azure.ResourceManager.Datadog",
