@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.ContainerServiceFleet",
-  "Version": "1.2.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.2.0-alpha.20251020.1",
+  "DevVersion": "1.2.0-alpha.20251020.1",
   "DirectoryPath": "sdk/fleet/Azure.ResourceManager.ContainerServiceFleet",
   "ServiceDirectory": "fleet",
   "ReadMePath": "sdk/fleet/Azure.ResourceManager.ContainerServiceFleet/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.ResourceManager.ContainerServiceFleet",
-  "ReleaseStatus": "2025-08-12",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
@@ -21,13 +21,10 @@
     "name": "Azure.ResourceManager.ContainerServiceFleet"
   },
   "CIParameters": {
+    "AOTTestInputs": [],
     "CIMatrixConfigs": [],
-    "AOTTestInputs": {
-      "ExpectedWarningsFilepath": "None",
-      "ArtifactName": "Azure.ResourceManager.ContainerServiceFleet"
-    },
-    "BuildSnippets": true,
-    "CheckAOTCompat": true
+    "CheckAOTCompat": true,
+    "BuildSnippets": true
   },
   "Namespaces": [
     "Azure.ResourceManager.ContainerServiceFleet",
