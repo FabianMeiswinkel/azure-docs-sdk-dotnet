@@ -1,12 +1,13 @@
 ---
-title: 
+title: Azure Provisioning KubernetesConfiguration client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Provisioning.KubernetesConfiguration, provisioning
-ms.date: 06/17/2025
+ms.date: 10/22/2025
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: provisioning
 ---
-# Azure.Provisioning.KubernetesConfiguration client library for .NET
+# Azure Provisioning KubernetesConfiguration client library for .NET - version 1.0.0-alpha.20251021.1 
+
 
 Azure.Provisioning.KubernetesConfiguration simplifies declarative resource provisioning in .NET.
 
@@ -58,7 +59,7 @@ more information, see the [Code of Conduct FAQ][coc_faq] or contact
 <opencode@microsoft.com> with any other questions or comments.
 
 <!-- LINKS -->
-[cg]: https://github.com/Azure/azure-sdk-for-net/blob/Azure.Provisioning.KubernetesConfiguration_1.0.0-beta.3/sdk/resourcemanager/Azure.ResourceManager/docs/CONTRIBUTING.md
+[cg]: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcemanager/Azure.ResourceManager/docs/CONTRIBUTING.md
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 
