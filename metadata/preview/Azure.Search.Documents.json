@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Search.Documents",
-  "Version": "11.8.0-alpha.20251022.1",
-  "DevVersion": "11.8.0-alpha.20251022.1",
+  "Version": "11.8.0-alpha.20251022.2",
+  "DevVersion": "11.8.0-alpha.20251022.2",
   "DirectoryPath": "sdk/search/Azure.Search.Documents",
   "ServiceDirectory": "search",
   "ReadMePath": "sdk/search/Azure.Search.Documents/README.md",
@@ -10,28 +10,28 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Search.Documents",
-  "ReleaseStatus": "Unreleased",
+  "ReleaseStatus": "2025-10-20",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "triggeringPaths": [
       "/sdk/search/ci.yml"
     ],
-    "safeName": "AzureSearchDocuments",
-    "name": "Azure.Search.Documents"
+    "name": "Azure.Search.Documents",
+    "safeName": "AzureSearchDocuments"
   },
   "CIParameters": {
-    "CheckAOTCompat": false,
     "AOTTestInputs": [],
     "CIMatrixConfigs": [],
-    "BuildSnippets": true
+    "BuildSnippets": true,
+    "CheckAOTCompat": false
   },
   "Namespaces": [
     "Azure.Search.Documents",
-    "Azure.Search.Documents.Agents",
-    "Azure.Search.Documents.Agents.Models",
     "Azure.Search.Documents.Indexes",
     "Azure.Search.Documents.Indexes.Models",
+    "Azure.Search.Documents.KnowledgeBases",
+    "Azure.Search.Documents.KnowledgeBases.Models",
     "Azure.Search.Documents.Models",
     "Microsoft.Extensions.Azure"
   ],
