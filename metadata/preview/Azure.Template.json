@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Template",
-  "Version": "1.0.3-beta.5246113",
-  "DevVersion": null,
+  "Version": "1.0.3-alpha.20251023.3",
+  "DevVersion": "1.0.3-alpha.20251023.3",
   "DirectoryPath": "sdk/template/Azure.Template",
   "ServiceDirectory": "template",
   "ReadMePath": "sdk/template/Azure.Template/README.md",
@@ -10,11 +10,10 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Template",
-  "ReleaseStatus": "2025-08-21",
+  "ReleaseStatus": "2025-10-23",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "AzureTemplate",
     "name": "Azure.Template",
     "triggeringPaths": [
       "config",
@@ -26,13 +25,14 @@
       "/eng",
       "/samples",
       "/sdk/template/ci.yml"
-    ]
+    ],
+    "safeName": "AzureTemplate"
   },
   "CIParameters": {
-    "CheckAOTCompat": false,
+    "AOTTestInputs": [],
+    "CheckAOTCompat": true,
     "BuildSnippets": true,
-    "CIMatrixConfigs": [],
-    "AOTTestInputs": []
+    "CIMatrixConfigs": []
   },
   "Namespaces": [
     "Azure.Template",
