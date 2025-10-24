@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.ImpactReporting",
-  "Version": "1.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20251023.1",
+  "DevVersion": "1.0.0-alpha.20251023.1",
   "DirectoryPath": "sdk/impactreporting/Azure.ResourceManager.ImpactReporting",
   "ServiceDirectory": "impactreporting",
   "ReadMePath": "sdk/impactreporting/Azure.ResourceManager.ImpactReporting/README.md",
@@ -10,21 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.ResourceManager.ImpactReporting",
-  "ReleaseStatus": "2025-10-23",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "AzureResourceManagerImpactReporting",
     "name": "Azure.ResourceManager.ImpactReporting",
     "triggeringPaths": [
       "/sdk/impactreporting/ci.mgmt.yml"
-    ]
+    ],
+    "safeName": "AzureResourceManagerImpactReporting"
   },
   "CIParameters": {
     "CheckAOTCompat": true,
-    "CIMatrixConfigs": [],
+    "BuildSnippets": true,
     "AOTTestInputs": [],
-    "BuildSnippets": true
+    "CIMatrixConfigs": []
   },
   "Namespaces": [
     "Azure.ResourceManager.ImpactReporting",
