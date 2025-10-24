@@ -1,0 +1,34 @@
+{
+  "Name": "Azure.ResourceManager.Resources.DeploymentStacks",
+  "Version": "1.0.0-alpha.20251024.1",
+  "DevVersion": "1.0.0-alpha.20251024.1",
+  "DirectoryPath": "sdk/resources/Azure.ResourceManager.Resources.DeploymentStacks",
+  "ServiceDirectory": "resources",
+  "ReadMePath": "sdk/resources/Azure.ResourceManager.Resources.DeploymentStacks/README.md",
+  "ChangeLogPath": "sdk/resources/Azure.ResourceManager.Resources.DeploymentStacks/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.Resources.DeploymentStacks",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/resources/ci.mgmt.yml"
+    ],
+    "name": "Azure.ResourceManager.Resources.DeploymentStacks",
+    "safeName": "AzureResourceManagerResourcesDeploymentStacks"
+  },
+  "CIParameters": {
+    "BuildSnippets": true,
+    "AOTTestInputs": null,
+    "CheckAOTCompat": true,
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "Azure.ResourceManager.Resources",
+    "Azure.ResourceManager.Resources.Mocking",
+    "Azure.ResourceManager.Resources.Models"
+  ]
+}
