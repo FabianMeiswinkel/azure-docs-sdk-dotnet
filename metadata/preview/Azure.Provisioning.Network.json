@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Provisioning.Network",
-  "Version": "1.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20251024.3",
+  "DevVersion": "1.0.0-alpha.20251024.3",
   "DirectoryPath": "sdk/provisioning/Azure.Provisioning.Network",
   "ServiceDirectory": "provisioning",
   "ReadMePath": "sdk/provisioning/Azure.Provisioning.Network/README.md",
@@ -10,21 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Provisioning.Network",
-  "ReleaseStatus": "2025-09-05",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "name": "Azure.Provisioning.Network",
+    "safeName": "AzureProvisioningNetwork",
     "triggeringPaths": [
       "/sdk/provisioning/ci.compute.yml"
-    ],
-    "name": "Azure.Provisioning.Network",
-    "safeName": "AzureProvisioningNetwork"
+    ]
   },
   "CIParameters": {
-    "CheckAOTCompat": false,
     "BuildSnippets": true,
-    "AOTTestInputs": [],
-    "CIMatrixConfigs": []
+    "CheckAOTCompat": true,
+    "CIMatrixConfigs": [],
+    "AOTTestInputs": []
   },
   "Namespaces": [
     "Azure.Provisioning.Network"
